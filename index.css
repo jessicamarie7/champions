@@ -36,7 +36,7 @@ h1 {
     justify-content: center;
 }
 
-#endorsement-input {
+.endorsement-input {
     width: 100%;
     height: 150px;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ h1 {
     border: none;
 }
 
-#publish-button {
+button {
     padding: 10px 20px;
     width: 100%;
     height: 60px;
@@ -77,11 +77,11 @@ h2 {
     margin-bottom: 10px; 
 }
 
-#endorsements-container {
+.endorsements-container {
     width: 100%;
 }
 
-#endorsements-container div {
+.endorsements-container div {
     text-align: left;
     background-color: #ffffff; 
     padding: 10px 20px;
@@ -89,7 +89,8 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-#endorsements-container div p {
-    margin: 0;
+.endorsements-container p {
+    background-color: #ffffff;
     color: black;
+    padding: 10px;
 }
